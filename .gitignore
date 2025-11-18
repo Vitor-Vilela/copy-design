@@ -1,0 +1,54 @@
+# Build
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+
+# Rider / IDE
+.idea/
+*.suo
+*.user
+*.userprefs
+*.resharper
+*.DotSettings.user
+
+# VS Code
+.vscode/
+
+# .NET Core / NuGet
+*.nuget.cache
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.plist
+
+# Logs
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Publish / Deployment
+publish/
+*.zip
+
+# Others
+*.tmp
+*.bak
+*.backup
