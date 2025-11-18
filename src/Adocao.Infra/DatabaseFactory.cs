@@ -4,6 +4,10 @@ using System;
 
 namespace Adocao.Infra;
 
+// [Design Pattern: Simple Factory / Factory Method]
+// Define uma interface para criar um objeto, mas deixa as subclasses ou método decidirem
+// qual classe instanciar. Aqui decidimos qual Repositório (MySQL ou SQLite) criar
+// com base na configuração, sem que a Main saiba os detalhes.
 public static class DatabaseFactory
 {
     public static IPetRepository CreateRepository(string? dbType, string? connectionString)
